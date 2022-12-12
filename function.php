@@ -83,7 +83,7 @@ function upload(){
     $namafilebaru .= '.';
     $namafilebaru .= $ekstensiGambar;
     // copy file ke folder img
-    move_uploaded_file($tmpName, 'D:\Software\XAMPP\htdocs\phpdasar\pertemuan13\img/' . $namafilebaru);
+    move_uploaded_file($tmpName, '.\img/' . $namafilebaru);
     return $namafilebaru;
 }
 

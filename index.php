@@ -73,7 +73,7 @@ if(isset($_POST["find"])){
             </td>
             <td>
 
-                <img src="img/anime/<?= $row["image"] ?>" alt="" width="100">
+                <img src="img/<?= $row["image"] ?>" alt="" width="100">
             </td>
             <td><?= $row["Title"]?></td>
             <td><?= $row["Studio"]?></td>
